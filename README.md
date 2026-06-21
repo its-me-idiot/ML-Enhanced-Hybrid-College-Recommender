@@ -15,9 +15,30 @@ Lightweight hybrid college recommender combining content-based and collaborative
 2. Activate it and install: pip install -r requirements.txt
 
 ## Run
+**1. Start the Backend:**
+Open a terminal in the project root:
+
+```powershell
 python app_enhanced.py
 
-## Notes
-- Do NOT commit `venv/`, `node_modules/`, or `__pycache__/`. Add large files to .gitignore or use Git LFS for datasets.
+```
 
-License: MIT
+**2. Start the Frontend:**
+Open a **new terminal** window, navigate to the frontend folder, and start the application:
+
+```powershell
+cd frontend
+npm install
+npm start
+
+```
+
+## Notes
+
+* Do NOT commit `venv/`, `node_modules/`, or `__pycache__/` to Git.
+* Ensure your `.gitignore` is properly configured to ignore these folders.
+
+## License
+
+MIT
+"@ | Out-File -FilePath README.md -Encoding utf8
